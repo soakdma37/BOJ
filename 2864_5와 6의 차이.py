@@ -1,0 +1,6 @@
+a,b=input().split()
+mina=int(a.replace('6','5'))
+minb=int(b.replace('6','5'))
+maxa=int(a.replace('5','6'))
+maxb=int(b.replace('5','6'))
+print("%d %d"%(mina+minb,maxa+maxb))
